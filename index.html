@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desti's TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <script src="https://kit.fontawesome.com/b2342c1b07.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header"> 
+        <h1>WHAT SHOULD YOU DO ?</h1>
+    </header>
+    <div class="content-container">
+        <div class="addToDo">
+            <div class="addActivity">
+                <h2> Tambah Aktifitas</h2>
+                <input type="text" id="inputAktifitas" placeholder="Aktivitas">
+            </div>
+            <div class="addDate">
+                <h2> Tambah Tanggal </h2>
+                <input type="date" id="inputTanggal">
+            </div>
+            <div class="buttonadd">
+                <button onclick="tambahKegiatan()">add</button>
+            </div>
+        </div>
+
+        <div class="listKegiatan">
+            <h3>List Kegiatan</h3>
+            <ul id="daftarKegiatan">
+            </ul>
+        </div>
+        
+        <div class="listSelesai">
+            <h3>Telah Selesai</h3>
+            <ul id="daftarSelesai">
+            </ul>
+        </div>
+    </div>
+    
+    
+    <script src="scripts.js"></script>
+
+</body>
+</html>

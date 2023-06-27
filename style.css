@@ -1,0 +1,65 @@
+.header{
+    background-color: #395B64;
+    color: #E7F6F2;
+    padding: 2%;
+}
+.addToDo{
+    background-color: #E7F6F2;
+    text-align: center;
+    margin: 1% 20% 1% 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    
+}
+.listKegiatan{
+    background-color: #E7F6F2;
+    text-align: center;
+    margin: 1% 20% 1% 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.listSelesai{
+    background-color: #E7F6F2;
+    text-align: center;
+    margin: 1% 20% 1% 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+footer{
+    background-color: #395B64;
+    color: #E7F6F2;
+    text-align: center;
+    padding: 1%;
+}
+ul {
+    width: 80%;
+    margin: 5px 0;
+    text-align: center;
+    color: #395B64;
+    list-style: none;
+    padding-left: 10%;
+}
+button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    outline:none;
+    background-color: #395B64;
+    color: #E7F6F2;
+    margin-top: 2%;
+}
+.buttonadd{
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+input{
+    font-size: 15px;
+    width: 80%;
+    height: 35px;
+    padding-left: 2%;
+}
+body{
+    color:  #395B64;
+}
